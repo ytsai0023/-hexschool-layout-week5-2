@@ -1,0 +1,35 @@
+
+@import "../scss/base/reset";
+@import "../scss/utils/variables";
+@import "../scss/utils/utilities";
+@import "../scss/utils/mixins";
+@import "../scss/utils/spacing";
+@import "../scss/base/typography";
+@import "../scss/base/base";
+
+@import "../scss/component/icons";
+@import "../scss/component/user";
+@import "../scss/component/button";
+@import "../scss/component/card";
+@import "../scss/component/select";
+@import "../scss/component/checkbox";
+
+@import "../scss/layout/container";
+@import "../scss/layout/side-nav";
+@import "../scss/layout/head-nav";
+@import "../scss/layout/post";
+@import "../scss/layout/table";
+@import "../scss/layout/pagination";
+@import "../scss/layout/from";
+
+
+
+
+.show-border{
+    border: 1px solid #7d7d7d;
+}
+
+
+
+
+
