@@ -33,8 +33,9 @@ const paths = {
   },
   images: {
     assets: 'app/assets/images/**/*{.png,.jpg,.jpeg,.svg}',
-    dest: 'app/dist/images',
+    dest: 'app/dist/images/**',
   },
+
   deploy:{
     public:'app/dist/**/*'
   }
@@ -102,7 +103,6 @@ function pages() {
 function images() {
   return gulp
     .src(paths.images.assets)
-    .pipe(imagein())
     .pipe(gulp.dest(paths.images.dest))
     .pipe(browserSync.stream());
 }
